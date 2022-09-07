@@ -15,7 +15,6 @@ class EmergencyCallHendler {
 }
 
 struct Paramedic: AdvancedLifeSupport {
-    
     init(handler: EmergencyCallHendler) {
         handler.delegate = self
     }
@@ -26,7 +25,6 @@ struct Paramedic: AdvancedLifeSupport {
 }
 
 class Doctor: AdvancedLifeSupport {
-    
     init(handler: EmergencyCallHendler) {
         handler.delegate = self
     }
